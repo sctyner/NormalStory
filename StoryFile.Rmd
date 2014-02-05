@@ -63,3 +63,6 @@ You can also embed plots, for example:
 plot(cars)
 ```
 
+If the normal distribution had never been discovered, that would reduce the amount of tables in the back of every statistics books. All this saved paper would make all the Hippies very happy.
+!(http://flowerpower89.files.wordpress.com/2010/10/hippies.jpg)
+
