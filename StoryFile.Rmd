@@ -12,6 +12,10 @@ qplot(normal,geom='histogram')
 ```
 How can happened that this blind world couldn’t  discover this magic curve?  We know that at the end all the problems when we have enough information we get a Normal distribution. But what happened if the Normal distribution does not exists? This means that with a huge sample size for some specific problem we will not get our precious Normal curve? Mmmm  difficult to believe …….
 
+If the normal distribution had never been discovered, that would reduce the amount of tables in the back of every statistics books. All this saved paper would make all the Hippies very happy.
+
+![](http://flowerpower89.files.wordpress.com/2010/10/hippies.jpg)
+
 
 Could be the distruibution of 
 

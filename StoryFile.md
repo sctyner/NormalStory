@@ -1,5 +1,32 @@
 What would happen if we never knew about the normal distribution?
+
 ========================================================
+
+This story is a very sad story about a world without a Normal distribution.  As statistician it is very difficult imagine a world without the Normal distribution.  She is the queen of the distributions is very elegant with a perfect symmetric shape that some of the other curves want to reach at the end.
+Here is our queen...
+
+
+```r
+normal <- rnorm(10000)
+library(ggplot2)
+qplot(normal, geom = "histogram")
+```
+
+```
+## stat_bin: binwidth defaulted to range/30. Use 'binwidth = x' to adjust this.
+```
+
+![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1.png) 
+
+How can happened that this blind world couldnt  discover this magic curve?  We know that at the end all the problems when we have enough information we get a Normal distribution. But what happened if the Normal distribution does not exists? This means that with a huge sample size for some specific problem we will not get our precious Normal curve? Mmmm  difficult to believe .
+
+If the normal distribution had never been discovered, that would reduce the amount of tables in the back of every statistics books. All this saved paper would make all the Hippies very happy.
+
+![](http://flowerpower89.files.wordpress.com/2010/10/hippies.jpg)
+
+
+Could be the distruibution of 
+
 
 In a parellel dimension, the normal distribution was never discovered.  Therefore there was no sampling theory.  If you were studying sizes of oranges, you had to measure the sizes of ALL of the oranges. You had no idea if the next sample would also be normally distributed.  
 
@@ -32,7 +59,7 @@ qplot(x)
 ## stat_bin: binwidth defaulted to range/30. Use 'binwidth = x' to adjust this.
 ```
 
-![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1.png) 
+![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
 
 
 Bimodal
@@ -49,7 +76,7 @@ qplot(x, )
 ## stat_bin: binwidth defaulted to range/30. Use 'binwidth = x' to adjust this.
 ```
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
 
 
 
@@ -60,6 +87,6 @@ You can also embed plots, for example:
 plot(cars)
 ```
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
 
 
