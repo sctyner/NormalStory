@@ -1,13 +1,41 @@
 What would happen if we never knew about the normal distribution?
 ========================================================
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring web pages (click the **Help** toolbar button for more details on using R Markdown).
+In a parellel dimension, the normal distribution was never discovered.  Therefore there was no sampling theory.  If you were studying sizes of oranges, you had to measure the sizes of ALL of the oranges. You had no idea if the next sample would also be normally distributed.  
 
-When you click the **Knit HTML** button a web page will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+hmm restart. 
 
-```{r}
-summary(cars)
+1) Normal Distribution exists but is not discovered.
+- the normal distribution is using samples to summarize the entire population.  Most of the population is near an average.
+- therefore without a normal or any "distribution," researchers would have to measure the entire population. They could not assume that the next sample would match the current sample.
+
+2) Normal Distribution does not exist.
+- the world revolves around a uniform, gamma, exponential distribution, other
+- maybe it doesn't even have a distribution
+- non normal distributions: uniform, gamma, exponential, cycling (sin/cos, tangent etc)
+- music
+
+World 2:
+- 
+
+
+Non-Normal Distributions:
+Uniform
+```{r fig.width=4, fig.height=3}
+library(ggplot2)
+x = c(rep (c(1:5),5))
+qplot(x)
 ```
+
+Bimodal
+```{r fig.width=4, fig.height=3}
+library(ggplot2)
+x = rnorm(1000)
+x1=x+5
+x = c(x,x1)
+qplot(x,)
+```
+
 
 You can also embed plots, for example:
 
