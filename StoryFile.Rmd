@@ -2,7 +2,8 @@ What would happen if we never knew about the normal distribution?
 
 ========================================================
 
-This story is a very sad story about a world without a Normal distribution.  As statistician it is very difficult imagine a world without the Normal distribution.  She is the queen of the distributions is very elegant with a perfect symmetric shape that some of the other curves want to reach at the end….
+This story is a very sad story about a world without a Normal distribution.  As statistician it is very difficult imagine a world without the Normal distribution.  She is the queen of the distributions is very elegant with a perfect symmetric shape and a lot of the other curves want to be  normal at the end. For some of the other curves it is very difficult because they have a lot of asymetry that it is difficult to change... 
+
 Here is our queen…...
 
 ```{r fig.width=7, fig.height=6}
