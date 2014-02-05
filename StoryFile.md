@@ -2,8 +2,12 @@ What would happen if we never knew about the normal distribution?
 
 ========================================================
 
+<<<<<<< HEAD
 This story is a very sad story about a world without a Normal distribution.  As statistician it is very difficult imagine a world without the Normal distribution.  She is the queen of the distributions is very elegant with a perfect symmetric shape and a lot of the other curves want to be  normal at the end. For some of the other curves it is very difficult because they have a lot of asymetry that it is difficult to change... 
 
+=======
+This story is a very sad story about a world without a Normal distribution.  As statistician it is very difficult imagine a world without the Normal distribution.  She is the queen of the distributions is very elegant with a perfect symmetric shape that some of the other curves want to reach at the end.
+>>>>>>> e287cc64a8f9c9c607315cf81cb758151b6dd142
 Here is our queen...
 
 
@@ -21,6 +25,13 @@ qplot(normal, geom = "histogram")
 
 How can happened that this blind world couldnt  discover this magic curve?  We know that at the end all the problems when we have enough information we get a Normal distribution. But what happened if the Normal distribution does not exists? This means that with a huge sample size for some specific problem we will not get our precious Normal curve? Mmmm  difficult to believe .
 
+<<<<<<< HEAD
+=======
+If the normal distribution had never been discovered, that would reduce the amount of tables in the back of every statistics books. All this saved paper would make all the Hippies very happy.
+
+![](http://flowerpower89.files.wordpress.com/2010/10/hippies.jpg)
+
+>>>>>>> e287cc64a8f9c9c607315cf81cb758151b6dd142
 
 Could be the distruibution of 
 
