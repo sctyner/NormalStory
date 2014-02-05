@@ -16,8 +16,6 @@ How can happened that this blind world couldn’t  discover this magic curve?  W
 Could be the distruibution of 
 
 
-
-
 In a parellel dimension, the normal distribution was never discovered.  Therefore there was no sampling theory.  If you were studying sizes of oranges, you had to measure the sizes of ALL of the oranges. You had no idea if the next sample would also be normally distributed.  
 
 hmm restart. 
