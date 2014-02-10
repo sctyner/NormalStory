@@ -10,20 +10,84 @@ Here is our queen…...
 ```r
 normal <- rnorm(10000)
 library(ggplot2)
-qplot(normal, geom = "histogram", binwidth = 0.25) + geom_density(colour = "red")
+qplot(normal, geom = "blank", main = "The Queen", xlab = "Value") + geom_histogram(aes(y = ..density..), 
+    binwidth = 0.25) + stat_function(fun = dnorm, color = "red")
 ```
 
 ![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1.png) 
 
-But what would a world without our queen be?? What would happen in a world that hadn't discovered this magic curve?  Suppose that we live in a world where people are holding our queen hostage.  These people are at terrible kind of evil hippie who are so dedicated to saving a few sheets of tables in the back of statistics textbooks that they have taken our queen hostage so that no one knows about her.  So, there's no need for normal quantile and p-value tables and many trees are rescued. These are our queen's evil captors!
-![](http://flowerpower89.files.wordpress.com/2010/10/hippies.jpg)
+But what would a world without our queen be?? What would happen in a world that hadn't discovered this magic curve?  Suppose that we live in a world where people are holding our queen hostage.  These people are a terrible kind of evil hippie who are so dedicated to saving a few sheets of paper in the back of statistics textbooks that they have taken our queen hostage so that no one knows about her.  Without our queen, there's no need for normal quantile and p-value tables and many trees are rescued.
+
+These are our queen's evil captors!
+
+<img src="http://flowerpower89.files.wordpress.com/2010/10/hippies.jpg" alt="Drawing" style="width: 400px;"/>
+
+<!--  commented out original
+![](http://flowerpower89.files.wordpress.com/2010/10/hippies.jpg =50x) 
+-->
 
 We may have saved some trees, but is this conservation of a few trees worth the cost of living without our queen?? 
 
+What would happen to the Kindom of distributions?! The beautiful Queen was missing.  Would the distribution kingdom turn into a uniform democracy?
 
-Could be the distruibution of 
+```r
+x = c(rep(c(1:10), 5))
+qplot(x, binwidth = 0.5)  # uniform distribution
+```
+
+![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+
+Many scientists performed experiments and could not tell if the results were significantly different from the Null Hypothesis, for most of them had only used the normal distribution.  The engineers were unable use the scientist's results to design or improve technology.  A vast majority of statisticians became non-parametric statisticians for they were so devoted to their Normal Distribution Queen that none of the other distributions appealed to them.
+
+In those dark times, it was revealed that the Queen had three children: two girls and a boy. Their mother had tried to keep them out of the spotlight, for they were merely students (student's t distributions) and were off at university getting their 30 required degrees.  From youngest to oldest, they had 3, 10 and 25 degrees (of freedom).
+
+```r
+c1 = rt(1e+05, 3)
+qplot(c1, geom = "blank", main = "The Little Prince", xlab = "Value") + geom_histogram(aes(y = ..density..), 
+    binwidth = 0.25) + stat_function(fun = dt, args = c(df = 3), color = "green") + 
+    xlim(-10, 10)
+```
+
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-31.png) 
+
+```r
+c2 = rt(1e+05, 10)
+qplot(c2, geom = "blank", main = "The Younger Princess", xlab = "Value") + geom_histogram(aes(y = ..density..), 
+    binwidth = 0.25) + stat_function(fun = dt, args = c(df = 10), color = "blue") + 
+    xlim(-10, 10)
+```
+
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-32.png) 
+
+```r
+c3 = rt(1e+05, 25)
+qplot(c3, geom = "blank", main = "The Eldest Princess", xlab = "Value") + geom_histogram(aes(y = ..density..), 
+    binwidth = 0.25) + stat_function(fun = dt, args = c(df = 25), color = "purple") + 
+    xlim(-10, 10)
+```
+
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-33.png) 
+
+The scientists, the engineers, and especially the statisticians begged the students to come back and find their Queen mother and return the the world to its beautiful normalness.  So the three children left their studies and set out, crossing the waves of monotony...
+
+```r
+x = c(1:(100 * pi))/5
+y = sin(x)
+qplot(x, y, geom = "line")
+```
+
+![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
 
 
+But after months and months of this monotony, with their mother nowhere to be found, the eldest princess decided to give up the search and return to school.  Being the eldest, she decided that the best thing to do was to earn her last 5 degrees and take the throne, since she'd approximately be her mother after those 5 degrees. 
+
+With their sister back at school, the little prince and the younger princess continued to search the kingdom for their mother. But the evil hippies had planted random forests all throughout the kingdom! The prince and princess got lost in a random forest and were immediately classified. Without the normal distributon to guide the random forest, the prince and princess were deemed to belong to two different groups, and were transported to opposite sides of the kingdom!
+
+
+
+
+
+...
 In a parellel dimension, the normal distribution was never discovered.  Therefore there was no sampling theory.  If you were studying sizes of oranges, you had to measure the sizes of ALL of the oranges. You had no idea if the next sample would also be normally distributed.  
 
 hmm restart. 
@@ -38,25 +102,7 @@ hmm restart.
 - non normal distributions: uniform, gamma, exponential, cycling (sin/cos, tangent etc)
 - music
 
-World 2:
-- 
-
-
 Non-Normal Distributions:
-Uniform
-
-```r
-library(ggplot2)
-x = c(rep(c(1:5), 5))
-qplot(x)
-```
-
-```
-## stat_bin: binwidth defaulted to range/30. Use 'binwidth = x' to adjust this.
-```
-
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
-
 
 Bimodal
 
@@ -72,7 +118,7 @@ qplot(x, )
 ## stat_bin: binwidth defaulted to range/30. Use 'binwidth = x' to adjust this.
 ```
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
 
 
@@ -83,7 +129,7 @@ You can also embed plots, for example:
 plot(cars)
 ```
 
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
+![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6.png) 
 
 
 
