@@ -24,7 +24,20 @@ We may have saved some trees, but is this conservation of a few trees worth the 
 
 Could be the distruibution of 
 
+<!-- Feel free to take out or adjust the following I'm just writing down a few ideas -->
 
+What would happen to the Kindom of distributions?! The beautiful Queen was missing.  Would the distribution kingdom turn into a democracy?
+```{r fig.width=4, fig.height=3}
+x = c(rep (c(1:10),5))
+qplot(x, binwidth=.5) # uniform distribution
+```
+
+The scientists, the mechanics, and especially the staticians came together creating a task force to go find and rescue the queen and return the world to it's beautiful normalness.  A team of 7 set out accross the waves of monotony.
+```{r fig.width=8,fig.height=1.5}
+x=c(1:(100*pi))/5
+y=sin(x)
+qplot(x,y, geom="line")
+```
 In a parellel dimension, the normal distribution was never discovered.  Therefore there was no sampling theory.  If you were studying sizes of oranges, you had to measure the sizes of ALL of the oranges. You had no idea if the next sample would also be normally distributed.  
 
 hmm restart. 
