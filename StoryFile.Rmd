@@ -28,8 +28,9 @@ What would happen to the Kindom of distributions?! The beautiful Queen was missi
 x = c(rep (c(1:10),5))
 qplot(x, binwidth=.5) # uniform distribution
 ```
+Many scientists performed experiments and could not tell if the results were significantly different from the Null Hypothesis, for most of them had only used the normal distribution.  The engineers were unable use the scientist's results to design or improve technology.  A vast majority of statisticians became non-parametric statisticians for they were so devoted to their Normal Distribution Queen that none of the other distributions appealed to them.
 
-The Queen had three children.  They were merely students (student's t distributions) and were off at university getting their 30 required degrees.  From youngest to oldest, they had 3, 10 and 25 degrees (of freedom).
+In those dark times, it turns out the Queen had three children.  They were merely students (student's t distributions) and were off at university getting their 30 required degrees.  From youngest to oldest, they had 3, 10 and 25 degrees (of freedom).
 ```{r fig.height=3}
 c1 = rt(100000,3)
 qplot(c1, binwidth=0.25)
@@ -38,7 +39,7 @@ qplot(c2, binwidth=0.25)
 c3 = rt(100000,25)
 qplot(c3, binwidth=0.25)
 ```
-The scientists, the mechanics, and especially the statisticians begged the students to come back and find their Queen mother and return the the world to its beautiful normalness.  So the three children left their studies and set out, crossing the waves of monotony...
+The scientists, the engineers, and especially the statisticians begged the students to come back and find their Queen mother and return the the world to its beautiful normalness.  So the three children left their studies and set out, crossing the waves of monotony...
 ```{r fig.width=8,fig.height=1.5}
 x=c(1:(100*pi))/5
 y=sin(x)
