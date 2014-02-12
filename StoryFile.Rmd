@@ -54,26 +54,37 @@ With their sister back at school, the little prince and the younger princess con
 With the kingdom divided in two parts the normal princess show all her properties and the advantages in statistics to use the Normal family. For example she mention that the Normal distribution is very useful because of the central limit theorem, that says the mean of many random variables independently drawn from the same distribution is distributed approximately normally. She finish her exposition saying that the Normal distribution is the most important distribution in probability theory and if this kingdom want to be a prosper kingdom needs the normal distribution to survive.
 
 On the opposite side of the kingdom they was convinced that they do not need the Normal distribution to survive and then they say that with a non parametric aproach they will solve all the problems that they have.
+At the end these two kingdoms live happy with their different approach and people to each kingdom go on vacation to the other side to know the differences between these two approches.
+And each year they make a huge party to celebrate their peacefull convivence.
+ 
 
-At the end these two kingdoms live happy with their different approach and people to each kingdome go on vacation to the other side to know the differences between these two approches.
 
+"Colorin colorado" is the end of this story...
 
+Here is the huge party...
 
-Bimodal
 ```{r fig.width=4, fig.height=3}
 library(ggplot2)
 x = rnorm(1000)
-x1=x+5
-x = c(x,x1)
-qplot(x,)
+x1=rgamma(1000,1,2)
+x2<-rpois(1000,1)
+x3<-x1+5
+x4<-x2+5
+x5<-x+5
+x6<-rchisq(1000,4)
+x7<-x6+5
+x8<-rnorm(1000,2,18)
+x9<-x8+5
+x10<-x9+5
+x11<-rchisq(1000,10)
+x12=rgamma(1000,12,20)
+x13<-x12+5
+x14<-x14+5
+x15<-x6+10
+x16<-x1+10
+
+x = c(x,x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,x16)
+qplot(x,binwidth=.1)+geom_histogram(aes(y=..density..),binwidth=.25)
+
 ```
 
-
-You can also embed plots, for example:
-
-```{r fig.width=7, fig.height=6}
-plot(cars)
-```
-
-
-We know that at the end all the problems when we have enough information we get a Normal distribution. But what happened if the Normal distribution does not exists? This means that with a huge sample size for some specific problem we will not get our precious Normal curve? Mmmm  difficult to believe …….
