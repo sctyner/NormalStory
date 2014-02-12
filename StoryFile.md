@@ -4,7 +4,7 @@ What would happen if we never knew about the normal distribution?
 This story is a very sad story about a world without a Normal distribution.  As a statistician it is very difficult to imagine a world without the Normal distribution.  She is the queen of the distributions!  She is very elegant with a perfect symmetric shape, and a lot of the other curves aspire to her ideal unimodal and symmetric shape. Some of the other curves, like gamma or exponential, have a lot of asymmetry that is difficult to change. 
 
 
-Here is our queen…...
+Here is our queen...
 
 
 ```r
@@ -133,4 +133,4 @@ plot(cars)
 
 
 
-We know that at the end all the problems when we have enough information we get a Normal distribution. But what happened if the Normal distribution does not exists? This means that with a huge sample size for some specific problem we will not get our precious Normal curve? Mmmm  difficult to believe …….
+We know that at the end all the problems when we have enough information we get a Normal distribution. But what happened if the Normal distribution does not exists? This means that with a huge sample size for some specific problem we will not get our precious Normal curve? Mmmm  difficult to believe .
