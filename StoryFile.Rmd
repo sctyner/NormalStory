@@ -58,7 +58,6 @@ At the end these two kingdoms live happy with their different approach and peopl
 And each year they make a huge party to celebrate their peacefull convivence.
  
 
-
 "Colorin colorado" is the end of this story...
 
 Here is the huge party...
@@ -79,7 +78,7 @@ x10<-x9+5
 x11<-rchisq(1000,10)
 x12=rgamma(1000,12,20)
 x13<-x12+5
-x14<-x14+5
+x14<-x13+5
 x15<-x6+10
 x16<-x1+10
 
