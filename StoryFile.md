@@ -86,9 +86,11 @@ With their sister back at school, the little prince and the younger princess con
 
 With the kingdom divided in two parts the normal princess show all her properties and the advantages in statistics to use the Normal family. For example she mention that the Normal distribution is very useful because of the central limit theorem, that says the mean of many random variables independently drawn from the same distribution is distributed approximately normally. She finish her exposition saying that the Normal distribution is the most important distribution in probability theory and if this kingdom want to be a prosper kingdom needs the normal distribution to survive.
 
-On the opposite side of the kingdom they was convinced that they do not need the Normal distribution to survive and then they say that with a non parametric aproach they will solve all the problems that they have.
+
+On the opposite side of the kingdom, they were convinced they do not need the Normal distribution to survive and then they say that with a non parametric aproach they will solve all the problems that they have.
 At the end these two kingdoms live happy with their different approach and people to each kingdom go on vacation to the other side to know the differences between these two approches.
-And each year they make a huge party to celebrate their peacefull convivence.
+And each year they make a huge party to celebrate their peaceful convivence.
+ 
  
 
 "Colorin colorado" is the end of this story...
